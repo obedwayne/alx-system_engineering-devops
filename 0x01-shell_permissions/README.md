@@ -26,5 +26,6 @@ chown vincent:staff * - Write a script that changes the owner to vincent and the
 chown -h vincent:staff _hello - Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
 #!/bin/bash
 chown --from=guillaume betty hello - Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+#!/bin/bash
 telnet towel.blinkenlights.nl - Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
 
