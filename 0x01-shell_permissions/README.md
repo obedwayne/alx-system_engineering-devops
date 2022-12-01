@@ -18,3 +18,5 @@ chmod --reference=olleh hello - Write a script that sets the mode of the file he
 chmod -R ugo+X * - Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 #!/bin/bash
 mkdir my_dir -m=751 - Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+#!/bin/bash
+chgrp school hello - Write a script that changes the group owner to school for the file hello
